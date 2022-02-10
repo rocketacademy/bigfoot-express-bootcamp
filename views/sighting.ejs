@@ -1,0 +1,9 @@
+<html>
+  <body>
+    <% Object.keys(sighting).forEach((key) => { %>
+    <div><%= key %> : <%= sighting[[key]] %></div>
+    <br />
+    <% }) %>
+    <div><% sighting["YEAR"] %></div>
+  </body>
+</html>
